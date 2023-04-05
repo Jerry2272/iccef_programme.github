@@ -744,6 +744,7 @@ footer img {
         background-repeat: no-repeat;
         height: 641px;
         margin-top: 0;
+        padding-top: 25em;
     }
 
     #home h1 {
@@ -905,7 +906,7 @@ footer img {
         /* footer/section */
         footer {
             font-family: Poppins;
-            margin-bottom: 7em;
+            margin-bottom: 1em;
         }
     
         footer img {
