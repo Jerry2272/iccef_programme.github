@@ -721,7 +721,7 @@ footer img {
 
     /* home/section */
     #home {
-        background: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), url("..//Images/legacy_bg_sm.png");
+        background: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), url("..//Images/legacy_real_sm_bg.png");
         height: 641px;
         background-position: center;
         background-size: cover;
@@ -783,9 +783,6 @@ footer img {
         background: #39779F;
     }
 
-    .legal {
-        display: none;
-    }
 
     .africa h5 {
         font-family: Poppins;

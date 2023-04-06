@@ -718,14 +718,16 @@ footer{
         text-align: left;
         text-transform: uppercase;
     } */
-
+    .all{
+        padding: 25px;
+     }
     /* card */
     #card {
         background: #fff;
         /* box-shadow: 10px 10px 3px 0px rgba(26, 26, 26, 0.07); */
         border: none;
         outline: none;
-        padding: 20px;
+        /* padding: 20px; */
         /* box-shadow: 10.468083381652832px 10.468083381652832px 3.489361524581909px 0px #1A1A1A12; */
     }
 
