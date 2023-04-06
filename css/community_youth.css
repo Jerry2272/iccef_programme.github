@@ -421,7 +421,7 @@ footer{
 
     /* section/News_Stories_card */
     .card {
-        background: #F9F9F9;
+        background: #FFF;
         height: 585px;
         max-width: 376px;
         border: none;
@@ -727,11 +727,13 @@ footer{
         box-shadow: 2px 8px 16px 2px #1A1A1A12;
         border: none;
         outline: none;
-        padding: 20px;
+        /* padding-left: 25px;
+        padding-right: 25px; */
+        /* padding: 20px; */
         /* box-shadow: 10.468083381652832px 10.468083381652832px 3.489361524581909px 0px #1A1A1A12; */
     }
-    #card:hover{
-    box-shadow: 2px 8px 16px 2px #1A1A1A24;
+    .all{
+       padding: 25px;
     }
 
     #card h5 {

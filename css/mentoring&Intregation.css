@@ -113,21 +113,21 @@ section {
     color:#21428C;
 }
 #see-all:hover{
-    color:#21428C;
-    background: #21428C;
-    color: #fff;
-    border: none;
-    transition: 0.65s ease;
-}
-.btn-su:hover {
     background: #fff;
     color: #21428C;
     border: 2px solid #21428C;
+    transition: 0.65s ease;
     transition: 0.65s ease;
 }
 .btn-sub:hover {
     background: #fff;
     color: #21428C;
+    border: 2px solid #21428C;
+    transition: 0.65s ease;
+}
+.btn-su:hover {
+    background: #21428C;
+    color: #fff;
     border: none;
     transition: 0.65s ease;
 }
@@ -165,9 +165,7 @@ section {
 .card {
     box-shadow: 2px 8px 16px 2px #1A1A1A12;
 }
-.card:hover{
-    box-shadow: 2px 8px 16px 2px #1A1A1A24;
-}
+
 
 .btn_div_content {
     margin-top: 5em;
@@ -344,6 +342,7 @@ footer{
 
     .navbar_dropdown:hover .dropdowns {
         display: block;
+        transition: all 0.10s;
     }
 
     .navbar_dropdown:hover span i {
@@ -468,12 +467,15 @@ footer{
 
     /* section/News_Stories_card */
     .card {
-        background: #F9F9F9;
+        background: #FFF;
         height: 585px;
         max-width: 376px;
         border: none;
     }
-
+    .card:hover{
+        box-shadow: 2px 8px 16px 2px #1A1A1A24;
+        cursor: pointer;
+    }
     .card img {
         height: 236px;
         max-width: 376px;
@@ -774,13 +776,15 @@ footer{
 
         /* card */
            /* card */
-          
+           .all{
+            padding: 25px;
+         }
     #card {
         background: #fff;
         /* box-shadow: 10px 10px 3px 0px rgba(26, 26, 26, 0.07); */
         border: none;
         outline: none;
-        padding: 20px;
+        /* padding: 20px; */
         /* box-shadow: 10.468083381652832px 10.468083381652832px 3.489361524581909px 0px #1A1A1A12; */
     }
 

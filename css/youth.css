@@ -184,16 +184,14 @@ section {
 
 
 #card {
-    background: #F5F5F5;
+    background: #FFF;
     border-radius: 4px;
     outline: 0;
     border: 0;
     box-shadow: 2px 8px 16px 2px #1A1A1A12;
 }
 
-#card:hover {
-    box-shadow: 2px 8px 16px 2px #1A1A1A24;
-}
+
 
 .card img {
     max-height: 236px;
@@ -517,11 +515,13 @@ footer {
         background: #21428C;
         border-radius: 4px;
     }
-
+    #card:hover {
+        box-shadow: 2px 8px 16px 2px #1A1A1A24;
+    }
     #card {
         height: 570px;
         max-width: 376px;
-        background: #F5F5F5;
+        background: #FFF;
         height: 570px;
         max-width: 376px;
         border-radius: 8px;
@@ -953,11 +953,13 @@ footer {
         color: #1A1A1A;
         max-width: 353px;
     }
-
+    .all{
+        padding: 25px;
+     }
     #card {
         background: #fff;
         /* box-shadow: 10px 10px 3px 0px rgba(26, 26, 26, 0.07); */
-        padding: 15px;
+        /* padding: 15px; */
         /* box-shadow: 10.468083381652832px 10.468083381652832px 3.489361524581909px 0px rgba(26, 26, 26, 0.07); */
     }
 
