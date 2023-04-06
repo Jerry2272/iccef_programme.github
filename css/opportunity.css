@@ -305,9 +305,9 @@ footer img {
     .navbar_dropdown:hover span i {
         color: blue;
         transform: rotate(180deg);
-        transition: all 0.7s;
-        font-weight: 400;
-        font-size: 12px;
+        transition: all 0.65s;
+        /* font-weight: 400;
+        font-size: 12px; */
     }
 
     .dropdowns {
@@ -483,8 +483,8 @@ footer img {
 
 
 @media (max-width: 568px) {
-  /* navigation/navbar-header */
-  .accordion .accordion_content {
+ /* navigation/navbar-header */
+ .accordion .accordion_content {
     position: relative;
 }
 
@@ -514,15 +514,16 @@ footer img {
 
 #programme_accordion {
     display: none;
-    height: 182px;
+    height: auto;
     border-top: 1px solid #1a1a1a;
     border-bottom: 1px solid #1a1a1a;
-    padding: 8px;
+    padding: 18px;
+    padding-top: 10px;
     /* padding-top: 7px; */
 }
 
 #programme_accordion .nav-content-link {
-    padding-top: 11px
+    padding-top: 15px
 }
 
 #blog_accordion {
@@ -530,7 +531,8 @@ footer img {
     border-top: 1px solid #1a1a1a;
     border-bottom: 1px solid #1a1a1a;
     padding: 10px;
-    padding-top: 0;
+    padding-top: 5px;
+    height: auto;
 }
 
 #getInvolved_accordion {
@@ -541,7 +543,9 @@ footer img {
     padding: 10px;
     padding-top: 0;
 }
-
+ .nav-content-link:hover{
+    color: blue;
+}
 .accordion .accordion_content:hover #about_accordion .nav-content-link {
     color: #1a1a1a;
     font-family: Poppins;
@@ -550,6 +554,7 @@ footer img {
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
+    padding-top: 10px;
     display: block;
 }
 
@@ -562,6 +567,7 @@ footer img {
     letter-spacing: 0em;
     text-align: center;
     display: block;
+    padding-top: 8px;
 }
 
 .accordion .accordion_content:hover #programme_accordion .nav-content-link {
@@ -573,6 +579,7 @@ footer img {
     letter-spacing: 0em;
     text-align: center;
     display: block;
+    padding-top: 15px;
 }
 
 .accordion .accordion_content:hover #getInvolved_accordion .nav-content-link {
@@ -584,6 +591,7 @@ footer img {
     letter-spacing: 0em;
     text-align: center;
     display: block;
+    padding-top: 5px;
 }
 
 .accordion .accordion_content .accordion_title {
@@ -607,6 +615,7 @@ footer img {
     content: '-';
     position: absolute;
 }
+
 
 .nav-btn {
     font-size: 12px;
@@ -766,7 +775,7 @@ footer img {
     /* footer/section */
     footer {
         font-family: Poppins;
-        margin-bottom: 5em;
+        margin-bottom: 1em;
     }
 
     footer img {

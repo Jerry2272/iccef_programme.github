@@ -380,9 +380,9 @@ footer img {
     .navbar_dropdown:hover span i {
         color: blue;
         transform: rotate(180deg);
-        transition: all 0.7s;
-        font-weight: 400;
-        font-size: 12px;
+        transition: all 0.65s;
+        /* font-weight: 400;
+        font-size: 12px; */
     }
 
     .dropdowns {
@@ -533,131 +533,137 @@ footer img {
 
 
 @media (max-width: 568px) {
-      /* navigation/navbar-header */
-      .accordion .accordion_content {
-        position: relative;
-    }
+    /* navigation/navbar-header */
+ .accordion .accordion_content {
+    position: relative;
+}
 
-    .accordion_content:hover #about_accordion {
-        display: block;
-    }
+.accordion_content:hover #about_accordion {
+    display: block;
+}
 
-    .accordion .accordion_content:hover #programme_accordion {
-        display: block;
-    }
+.accordion .accordion_content:hover #programme_accordion {
+    display: block;
+}
 
-    .accordion .accordion_content:hover #blog_accordion {
-        display: block;
-    }
+.accordion .accordion_content:hover #blog_accordion {
+    display: block;
+}
 
-    .accordion .accordion_content:hover #getInvolved_accordion {
-        display: block;
-    }
+.accordion .accordion_content:hover #getInvolved_accordion {
+    display: block;
+}
 
-    #about_accordion {
-        display: none;
-        border-top: 1px solid #1a1a1a;
-        border-bottom: 1px solid #1a1a1a;
-        padding: 10px;
-        padding-top: 0;
-    }
+#about_accordion {
+    display: none;
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+    padding: 10px;
+    padding-top: 0;
+}
 
-    #programme_accordion {
-        display: none;
-        height: 182px;
-        border-top: 1px solid #1a1a1a;
-        border-bottom: 1px solid #1a1a1a;
-        padding: 8px;
-        /* padding-top: 7px; */
-    }
+#programme_accordion {
+    display: none;
+    height: auto;
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+    padding: 18px;
+    padding-top: 10px;
+    /* padding-top: 7px; */
+}
 
-    #programme_accordion .nav-content-link {
-        padding-top: 11px
-    }
+#programme_accordion .nav-content-link {
+    padding-top: 15px
+}
 
-    #blog_accordion {
-        display: none;
-        border-top: 1px solid #1a1a1a;
-        border-bottom: 1px solid #1a1a1a;
-        padding: 10px;
-        padding-top: 0;
-    }
+#blog_accordion {
+    display: none;
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+    padding: 10px;
+    padding-top: 5px;
+    height: auto;
+}
 
-    #getInvolved_accordion {
-        position: relative;
-        display: none;
-        border-top: 1px solid #1a1a1a;
-        border-bottom: 1px solid #1a1a1a;
-        padding: 10px;
-        padding-top: 0;
-    }
+#getInvolved_accordion {
+    position: relative;
+    display: none;
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+    padding: 10px;
+    padding-top: 0;
+}
+ .nav-content-link:hover{
+    color: blue;
+}
+.accordion .accordion_content:hover #about_accordion .nav-content-link {
+    color: #1a1a1a;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 10px;
+}
 
-    .accordion .accordion_content:hover #about_accordion .nav-content-link {
-        color: #1a1a1a;
-        font-family: Poppins;
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 20px;
-        letter-spacing: 0em;
-        text-align: center;
-        display: block;
-    }
+.accordion .accordion_content:hover #blog_accordion .nav-content-link {
+    color: #1a1a1a;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: block;
+    padding-top: 8px;
+}
 
-    .accordion .accordion_content:hover #blog_accordion .nav-content-link {
-        color: #1a1a1a;
-        font-family: Poppins;
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 20px;
-        letter-spacing: 0em;
-        text-align: center;
-        display: block;
-    }
+.accordion .accordion_content:hover #programme_accordion .nav-content-link {
+    color: #1a1a1a;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+}
 
-    .accordion .accordion_content:hover #programme_accordion .nav-content-link {
-        color: #1a1a1a;
-        font-family: Poppins;
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 20px;
-        letter-spacing: 0em;
-        text-align: center;
-        display: block;
-    }
+.accordion .accordion_content:hover #getInvolved_accordion .nav-content-link {
+    color: #1a1a1a;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+}
 
-    .accordion .accordion_content:hover #getInvolved_accordion .nav-content-link {
-        color: #1a1a1a;
-        font-family: Poppins;
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 20px;
-        letter-spacing: 0em;
-        text-align: center;
-        display: block;
-    }
+.accordion .accordion_content .accordion_title {
+    padding-top: 10px;
+}
 
-    .accordion .accordion_content .accordion_title {
-        padding-top: 10px;
-    }
+.accordion_title {
+    position: relative;
+}
 
-    .accordion_title {
-        position: relative;
-    }
+.accordion_title::before {
+    content: '+';
+    position: absolute;
+    font-weight: bold;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-7px);
+}
 
-    .accordion_title::before {
-        content: '+';
-        position: absolute;
-        font-weight: bold;
-        top: 50%;
-        right: 40px;
-        transform: translateY(-7px);
-    }
-
-    .accordion .accordion_content:hover .accordion_title::before {
-        content: '-';
-        position: absolute;
-    }
-
+.accordion .accordion_content:hover .accordion_title::before {
+    content: '-';
+    position: absolute;
+}
     .nav-btn {
         font-size: 12px;
         font-weight: 400;
@@ -865,7 +871,7 @@ footer img {
     /* footer/section */
     footer {
         font-family: Poppins;
-        margin-bottom: 3em;
+        margin-bottom: 1em;
         margin-left: 1em;
     }
 
