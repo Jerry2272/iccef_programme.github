@@ -60,6 +60,7 @@ section {
     color: #21428C;
     border: 2px solid #21428C;
 }
+
 .nav-bt {
     /* width: 172px; */
     font-family: Poppins;
@@ -82,7 +83,7 @@ section {
 
 .nav-link {
     margin-left: 20px;
-    padding-top: 16px;   
+    padding-top: 16px;
 }
 
 .nav_bt:hover {
@@ -116,7 +117,7 @@ section {
     transition: 0.65s ease;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -153,9 +154,10 @@ html{
 
 
 /* mentor/section */
-#mentor{
+#mentor {
     margin-top: 7em;
 }
+
 #mentor img {
     height: 391px;
     width: 100%;
@@ -485,9 +487,10 @@ footer {
         /* padding: 20px; */
     }
 
-    .btn_div_content{
+    .btn_div_content {
         margin-top: 7em;
     }
+
     .btn_div {
         padding: 15px 24px;
         gap: 10px;
@@ -549,194 +552,195 @@ footer {
 
 
 @media (max-width:568px) {
-   /* navigation/navbar-header */
-   .accordion .accordion_content {
-    position: relative;
-}
 
-.accordion_content:hover #about_accordion {
-    display: block;
-}
+    /* navigation/navbar-header */
+    .accordion .accordion_content {
+        position: relative;
+    }
 
-.accordion .accordion_content:hover #programme_accordion {
-    display: block;
-}
+    .accordion_content:hover #about_accordion {
+        display: block;
+    }
 
-.accordion .accordion_content:hover #blog_accordion {
-    display: block;
-}
+    .accordion .accordion_content:hover #programme_accordion {
+        display: block;
+    }
 
-.accordion .accordion_content:hover #getInvolved_accordion {
-    display: block;
-}
+    .accordion .accordion_content:hover #blog_accordion {
+        display: block;
+    }
 
-#about_accordion {
-    display: none;
-    border-top: 1px solid #1a1a1a;
-    border-bottom: 1px solid #1a1a1a;
-    padding: 10px;
-    padding-top: 0;
-}
+    .accordion .accordion_content:hover #getInvolved_accordion {
+        display: block;
+    }
 
-#programme_accordion {
-    display: none;
-    height: 182px;
-    border-top: 1px solid #1a1a1a;
-    border-bottom: 1px solid #1a1a1a;
-    padding: 8px;
-    /* padding-top: 7px; */
-}
+    #about_accordion {
+        display: none;
+        border-top: 1px solid #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
+        padding: 10px;
+        padding-top: 0;
+    }
 
-#programme_accordion .nav-content-link {
-    padding-top: 11px
-}
+    #programme_accordion {
+        display: none;
+        height: 182px;
+        border-top: 1px solid #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
+        padding: 8px;
+        /* padding-top: 7px; */
+    }
 
-#blog_accordion {
-    display: none;
-    border-top: 1px solid #1a1a1a;
-    border-bottom: 1px solid #1a1a1a;
-    padding: 10px;
-    padding-top: 0;
-}
+    #programme_accordion .nav-content-link {
+        padding-top: 11px
+    }
 
-#getInvolved_accordion {
-    position: relative;
-    display: none;
-    border-top: 1px solid #1a1a1a;
-    border-bottom: 1px solid #1a1a1a;
-    padding: 10px;
-    padding-top: 0;
-}
+    #blog_accordion {
+        display: none;
+        border-top: 1px solid #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
+        padding: 10px;
+        padding-top: 0;
+    }
 
-.accordion .accordion_content:hover #about_accordion .nav-content-link {
-    color: #1a1a1a;
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
-    display: block;
-}
+    #getInvolved_accordion {
+        position: relative;
+        display: none;
+        border-top: 1px solid #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
+        padding: 10px;
+        padding-top: 0;
+    }
 
-.accordion .accordion_content:hover #blog_accordion .nav-content-link {
-    color: #1a1a1a;
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
-    display: block;
-}
+    .accordion .accordion_content:hover #about_accordion .nav-content-link {
+        color: #1a1a1a;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        display: block;
+    }
 
-.accordion .accordion_content:hover #programme_accordion .nav-content-link {
-    color: #1a1a1a;
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
-    display: block;
-}
+    .accordion .accordion_content:hover #blog_accordion .nav-content-link {
+        color: #1a1a1a;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        display: block;
+    }
 
-.accordion .accordion_content:hover #getInvolved_accordion .nav-content-link {
-    color: #1a1a1a;
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
-    display: block;
-}
+    .accordion .accordion_content:hover #programme_accordion .nav-content-link {
+        color: #1a1a1a;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        display: block;
+    }
 
-.accordion .accordion_content .accordion_title {
-    padding-top: 10px;
-}
+    .accordion .accordion_content:hover #getInvolved_accordion .nav-content-link {
+        color: #1a1a1a;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        display: block;
+    }
 
-.accordion_title {
-    position: relative;
-}
+    .accordion .accordion_content .accordion_title {
+        padding-top: 10px;
+    }
 
-.accordion_title::before {
-    content: '+';
-    position: absolute;
-    font-weight: bold;
-    top: 50%;
-    right: 40px;
-    transform: translateY(-7px);
-}
+    .accordion_title {
+        position: relative;
+    }
 
-.accordion .accordion_content:hover .accordion_title::before {
-    content: '-';
-    position: absolute;
-}
+    .accordion_title::before {
+        content: '+';
+        position: absolute;
+        font-weight: bold;
+        top: 50%;
+        right: 40px;
+        transform: translateY(-7px);
+    }
 
-.nav-btn {
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: 30px;
-    background: #fff;
-    padding: 12px 94px;
-    border: 2px solid #21428C;
-    color: #21428C;
-}
+    .accordion .accordion_content:hover .accordion_title::before {
+        content: '-';
+        position: absolute;
+    }
 
-.nav_btn {
-    font-family: poppins;
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: 30px;
-    background: #21428C;
-    padding: 12px 94px;
-}
+    .nav-btn {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 30px;
+        background: #fff;
+        padding: 12px 94px;
+        border: 2px solid #21428C;
+        color: #21428C;
+    }
+
+    .nav_btn {
+        font-family: poppins;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 30px;
+        background: #21428C;
+        padding: 12px 94px;
+    }
 
 
 
 
-.nav_navigation {
-    position: fixed;
-    top: 0;
-}
+    .nav_navigation {
+        position: fixed;
+        top: 0;
+    }
 
-#navbarNav {
-    transition: all 0.30s ease-out;
-    padding-bottom: 3em;
-    height: auto;
-    padding-top: 3em;
-    position: relative;
-}
+    #navbarNav {
+        transition: all 0.30s ease-out;
+        padding-bottom: 3em;
+        height: auto;
+        padding-top: 3em;
+        position: relative;
+    }
 
-.nav_navigation{
-    padding: 15px;
-}
+    .nav_navigation {
+        padding: 15px;
+    }
 
-.navbar-toggler {
-    border: 0;
-    outline: 0em;
-}
+    .navbar-toggler {
+        border: 0;
+        outline: 0em;
+    }
 
-#navbar_toggle:hover {
-    background-color: yellow;
-    border: 0;
-    outline: 0em;
-}
+    #navbar_toggle:hover {
+        background-color: yellow;
+        border: 0;
+        outline: 0em;
+    }
 
-.navbar-toggler:hover .fa-bars::before {
-    content: '*';
-    position: absolute;
-    font-weight: 900;
-    transform: translateY(-20px);
-}
+    .navbar-toggler:hover .fa-bars::before {
+        content: '*';
+        position: absolute;
+        font-weight: 900;
+        transform: translateY(-20px);
+    }
 
-.fa-bars {
-    position: relative;
-    height: 0px;
-    width: 18px;
-    color: #292D32;
-}
+    .fa-bars {
+        position: relative;
+        height: 0px;
+        width: 18px;
+        color: #292D32;
+    }
 
     section {
         margin-top: 2em;
@@ -792,7 +796,7 @@ footer {
     }
 
     .btn_div_content {
-        margin-top: 1em;
+        margin-top: 3em;
         margin-left: 25px;
         margin-right: 25px;
     }
@@ -802,11 +806,11 @@ footer {
     }
 
     .btn_div {
-        /* height: 51px;
-        width: 325px; */
+        height: 51px;
+        /* width: 325px; */
         border: 2px solid #21428C;
         border-radius: 3px;
-        padding: 14px 94px 14px 94px;
+        padding:auto;
         text-align: center;
         color: #21428C;
         font-family: Poppins;
@@ -814,13 +818,15 @@ footer {
         font-weight: 400;
         line-height: 23px;
         letter-spacing: 0em;
+        padding-top: 10px;
     }
 
     .btn_di {
         background: #21428C;
         /* border: 1px solid #21428C; */
         border-radius: 3px;
-        padding: 14px 94px 14px 94px;
+        padding: auto;
+        height: 54px;
         text-align: center;
         color: white;
         font-family: Poppins;
@@ -829,6 +835,7 @@ footer {
         line-height: 23px;
         letter-spacing: 0em;
         margin-top: 2em;
+        padding-top: 10px;
     }
 
 
@@ -838,8 +845,14 @@ footer {
     }
 
     #mentor img {
-        padding: 40px;
+        /* padding: 40px; */
         height: 437px;
+        height: 296px;
+        width: 271px;
+        border-radius: 3.002770185470581px;
+    }
+    #mentor h4{
+        padding-top: 15px;
     }
 
     #mentor h1 {
@@ -850,6 +863,7 @@ footer {
         letter-spacing: 0em;
         text-align: left;
         color: #1A1A1A;
+        padding-bottom: 25px;
         /* text-transform: uppercase; */
     }
 
