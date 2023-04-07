@@ -701,13 +701,13 @@ footer{
 
      /* home/section */
      #home{
-        background: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), url("..//Images/daughter_bg_sm.png");
+        background: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), url("..//Images/comm_bg.png");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         height: 641px;
         padding-left: 2em;
-        padding-top: 22em;
+        padding-top: 23em;
         color: #fff;
     }
     #home h1{

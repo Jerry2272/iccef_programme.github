@@ -126,7 +126,7 @@ html{
     margin-top: 6em;
     max-width: 1440px;
     height: 429px;
-    background: linear-gradient(rgba(26, 26, 26, 0.6), rgba(26, 26, 26, 0.6)), url("..//Images/Opportunity_bg.png");
+    background: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), url("..//Images/Opportunity_bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
