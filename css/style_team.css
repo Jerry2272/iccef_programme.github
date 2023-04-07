@@ -525,6 +525,7 @@ footer{
         letter-spacing: 0em;
         text-align: center;
         padding-top: 10px;
+        display: block;
     }
 
     .accordion .accordion_content:hover #blog_accordion .nav-content-link {

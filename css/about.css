@@ -746,7 +746,7 @@ footer img {
     
     /* @home/section */
     #home {
-        background: linear-gradient(rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0.2));
+        background: linear-gradient(rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0.2)),url("../Images/about_bg_I.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
