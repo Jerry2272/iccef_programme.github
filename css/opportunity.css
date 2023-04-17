@@ -482,6 +482,19 @@ footer img {
 }
 
 
+@media (max-width: 768px){
+    .all{
+        padding: 40px;
+    }
+    .card{
+        background: red;
+    }
+    .card a{
+        color: green;
+    }
+}
+
+
 @media (max-width: 568px) {
  /* navigation/navbar-header */
  .accordion .accordion_content {
