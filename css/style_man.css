@@ -128,7 +128,7 @@ section {
     transition: 0.65s ease;
 }
 .home{
-    background: linear-gradient(rgba(0, 0, 0, 0.822),rgba(0, 0, 0, 0.582)),url(../Images/bio_bg.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../Images/bio_bg.png);
     box-shadow: 12px 12px 4px rgba(26, 26, 26, 0.07);
     border-radius: 4px;
     background-size: cover;
