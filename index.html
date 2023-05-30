@@ -23,18 +23,22 @@
 
 <body>
   <!-- header/navbar -->
-  <header class="d-lg-block d-none">
+  <header>
     <nav class="navbar navbar-expand-lg navigation_bar bg-white fixed-top">
       <div class="container">
         <a href="index.html" class="navbar-brand"><img src="Images/ICCEF LOGO 1.png" alt=""></a>
-        <button class="navbar-toggler hover-none" id="navbar_toggle"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <button class="navbar-toggler hover-none" id="navbar_toggle" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="fa fa-bars"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+        </button> -->
+        <span class="fa fa-bars navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+        onclick="changeIcon(this)"></span>
+        <div class="collapse navbar-collapse navbar-droparrow-content" id="navbarNav">
+          <ul class="navbar-nav ms-auto navbar-droparrow-content">
             <li class="nav-item navbar_dropdown">
-              <a class="nav-link" aria-current="page" href="#">About <span><i class="fa fa-angle-down ms-2"></i></span></a>
+              <a class="nav-link" aria-current="page" href="#">About <span><i
+                    class="fa fa-angle-down ms-2"></i></span></a>
               <ul class="dropdowns" id="About_Iccef">
                 <a href="html files/about.html" class="nav">About ICCEF</a>
                 <hr>
@@ -95,19 +99,6 @@
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
-  </header>
-
-  <header class="d-block d-lg-none">
-    <nav class="navbar navbar-expand-lg nav_navigation bg-white fixed-top">
-      <div class="container">
-        <a href="index.html" class="navbar-brand"><img src="Images/ICCEF LOGO 1.png" alt=""></a>
-        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label                                                                                                                     ="Toggle navigation"> -->
-          <span class="fa fa-bars navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="changeIcon(this)"></span>
-        <!-- </button> -->
         <div class="collapse navbar-collapse accordion" id="navbarNav">
           <div class="navbar-nav text-center accordion_content">
             <div class="accordion_title">
@@ -124,11 +115,13 @@
               <a class="nav-link" aria-current="page" href="#" style="color: #21428C;">Programme</a>
             </div>
             <div class="text-center" id="programme_accordion">
-              <a href="html files/youth.html" class="nav-content-link fw-bold pt-0">Youth Innovation and Technological Startups</a>
+              <a href="html files/youth.html" class="nav-content-link fw-bold pt-0">Youth Innovation and Technological
+                Startups</a>
               <a href="html files/Intergeneral.html" class="nav-content-link fw-bold">
                 Mentoring & Intergenerational Dialogues <br> (Big Brothers & Sisters Project)
               </a>
-              <a href="html files/community_youth.html" class="nav-content-link fw-bold">Community Youth Empowerment & Education</a>
+              <a href="html files/community_youth.html" class="nav-content-link fw-bold">Community Youth Empowerment &
+                Education</a>
               <a href="html files/daughter_project.html" class="nav-content-link fw-bold">Our Daughters Project</a>
               <a href="html files/legacy_project.html" class="nav-content-link fw-bold">Legacy Projects</a>
             </div>
@@ -141,7 +134,8 @@
               <a href="html files/stories.html" class="nav-content-link fw-bold">News/Stories</a>
               <a href="html files/Events.html" class="nav-content-link fw-bold">Events</a>
               <a href="html files/opportunity.html" class="nav-content-link fw-bold">Opportunity</a>
-              <a href="html files/writings by innocent.html" class="nav-content-link fw-bold"> Writings by Innocent  ChukwuemekaChukwuma</a>
+              <a href="html files/writings by innocent.html" class="nav-content-link fw-bold"> Writings by Innocent
+                ChukwuemekaChukwuma</a>
             </div>
           </div>
           <div class="navbar-nav text-center accordion_content">
@@ -154,10 +148,10 @@
               <a href="#" class="nav-content-link fw-bold">Volunteer</a>
             </div>
           </div>
-          <div>
-              <a class="nav-link nav-btn btn" href="#">Apply for Grant</a>
+          <div class="accordion-content-navbar-button">
+            <a class="nav-link nav-btn btn" href="#">Apply for Grant</a>
           </div>
-          <div>
+          <div class="accordion-content-navbar-button">
             <a class="nav-link text-white nav_btn btn" href="#">Donate</a>
           </div>
         </div>
@@ -166,22 +160,31 @@
   </header>
 
 
+
   <!-- section/home -->
-  <section id="home">
-    <h1 class="pb-3">Lorem ipsum dolor sit amet Eget etiam arcu viverra. </h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur. Ultricies blandit et ut varius massa. In penatibus id bibendum at volutpat
-      netus viverra elit. Maecenas pharetra id massa fames vitae.
-    </p>
-    <div class="btn_div_content">
-      <a href="#" class="btn_div text-white" style="border: 2px solid #fff;">Apply For Grant</a>
-      <a href="#" class="btn_di text-white">Donate</a>
+  <div id="home" class="div_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="pb-3">ICCEF IS AN ENDURING LEGACY IN SERVICE OF BOLD VISIONS OF INNOCENT CHUKWUMA.</h1>
+          <p>
+            It is designed to carry on the mandate of serving the community and promoting young people and women. ICCEF
+            is committed to building a platform that unlocks opportunities for peer learning and value building
+            initiatives. ICCEF has 5 program areas through which it will achieve its vision and mission while leaving
+            Innocent’s legacy.
+          </p>
+          <div class="btn_div_content">
+            <a href="#" class="btn_div text-white" style="border: 2px solid #fff;">Apply For Grant</a>
+            <a href="#" class="btn_di text-white">Donate</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
 
 
   <!-- section/about -->
-  <section id="feature_sction">
+  <div id="feature_sction" class="div_section">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -194,12 +197,11 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-
-  <section id="about">
-    <h1 class="p-lg-4 about-2 d-lg-none d-block">About ICCEF</h1>
+  <div id="about" class="div_section">
     <div class="container">
+    <h1 class="p-lg-4 about-2 d-lg-none d-block">About ICCEF</h1>
       <div class="row">
         <div class="col-lg-6 d-lg-block d-none">
           <img src="Images/Innocent-Chukwuma-3 1.png" alt="" class="img-fluid chukwuma">
@@ -218,18 +220,18 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
 
   <!-- section/blog -->
-  <section id="blog">
+  <div id="blog" class="div_section">
     <div class="container">
       <div class="row justify-content-center gy-3">
         <div class="col-lg-4 blog_card">
           <div class="card shadow-lg-none card-blog" id="card">
-           <div class="card-img">
-            <img src="Images/blog 1.png" class="card-img-top" alt="...">
-           </div>
+            <div class="card-img">
+              <img src="Images/blog 1.png" class="card-img-top" alt="...">
+            </div>
             <div class="card-body card-text_title">
               <h5 class="card-title">Our Vision</h5>
               <p class="card-text pt-3 mb-3">
@@ -241,10 +243,10 @@
         </div>
         <div class="col-lg-4 blog_card">
           <div class="card shadow-lg-none card-blog" id="card">
-           <div class="card-img">
-            <img src="Images/blog 2.png" class="card-img-top" alt="...">
-            <div class="empty_empty_content"></div>
-           </div>
+            <div class="card-img">
+              <img src="Images/blog 2.png" class="card-img-top" alt="...">
+              <div class="empty_empty_content"></div>
+            </div>
             <div class="card-body p-4">
               <h5 class="card-title">Our Mission</h5>
               <p class="card-text pt-lg-2">
@@ -257,10 +259,10 @@
         </div>
         <div class="col-lg-4 blog_card">
           <div class="card shadow-lg-none card-blog" id="card">
-           <div class="card-img">
-            <img src="Images/blog 3.png" class="card-img-top" alt="...">
-            <div class="empty_empty_content"></div>
-           </div>
+            <div class="card-img">
+              <img src="Images/blog 3.png" class="card-img-top" alt="...">
+              <div class="empty_empty_content"></div>
+            </div>
             <div class="card-body p-3">
               <h5 class="card-title">Core Value</h5>
               <ul class="pt-3">
@@ -280,26 +282,27 @@
         <a href="#" class="btn_blo text-white fw-bold">Donate</a>
       </div>
     </div>
-  </section>
+  </div>
 
-  
+
   <!-- section/bio -->
-  <section id="bio">
-    <h1>Biography of the man, Innocent Chukwuemeka Chukwuma</h1>
+  <div id="bio" class="div_section">
     <div class="container">
+    <h1>Biography of the man, Innocent Chukwuemeka Chukwuma</h1>
       <div class="row bio-row">
         <div class="col-lg-12 bio_bg">
           <a href="#"><img src="Images/Vector.png" alt=""></a>
         </div>
+        <div class="video_pos">
+          <iframe class="video_post" src="https://www.youtube.com/embed/wXA0f3JW-B4" title="The Man Innocent Chukwuma" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
 
-
-  <!-- section/programme -->
-  <section id="programme" class="d-lg-none d-md-none d-block mb-0 pb-0">
-    <h2>Programmes</h2>
+  <!-- <div id="programme" class="d-lg-none d-md-none d-block mb-0 pb-0 div_section">
     <div class="container">
+    <h2>Programmes</h2>
       <div class="row gy-3 programme_card_section ">
         <div class="col-lg-4 blog_card">
           <div class="card" id="crd">
@@ -369,16 +372,15 @@
         </div>
       </div>
     </div>
-  </section>
+  </div> -->
 
-
-  <section class="d-none d-lg-block d-md-block mt-3" id="prog">
+  <!-- section/programme -->
+  <div class="mt-3 div_section" id="prog">
     <div class="container my-5">
-    <h2>Programmes</h2>
+      <h2>Programmes</h2>
       <div class="row">
         <div class="owl-carousel owl-theme">
           <div class="item ms-lg-0">
-            <!-- <div class="col-lg-4"> -->
             <div class="card" id="crd">
               <div class="card-img">
                 <img src="Images/youth.png" class="card-img-top" alt="...">
@@ -388,8 +390,7 @@
                 <h5 class="card-title">Youth Innovation & Technological Startups</h5>
                 <small class="pt-3">March 27, 2023</small>
                 <p class="card-text pt-3 mb-5 pb-5 mb-md-4">
-                  Lorem ipsum dolor sit amet consectetur. Vel sed nec egestas nullam arcu id integer sociis...
-                </p>
+                  At our foundation, we believe in the power of mentorship to help individuals achieve their […] </p>
                 <a href="html files/youth.html">Read More</a>
               </div>
             </div>
@@ -406,8 +407,7 @@
                 <h5 class="card-title">Mentoring & Intergenerational Dialogues (Big Brothers & Sisters Project)</h5>
                 <small class="pt-2">May 16, 2023</small>
                 <p class="card-text pt-2 mb-lg-4 pb-lg-3 mb-md-3">
-                  Lorem ipsum dolor sit amet consectetur. Vel sed nec egestas nullam arcu id integer sociis...
-                </p>
+                  At our foundation, we believe in the power of mentorship to help individuals achieve their […] </p>
                 <a href="html files/Intergeneral.html">Read More</a>
               </div>
             </div>
@@ -424,73 +424,67 @@
                 <h5 class="card-title">Community Youth Empowerment & Education</h5>
                 <small class="pt-2">June 04, 2023</small>
                 <p class="card-text pt-2 lore pb-1 mb-lg-5 mb-md-5">
-                  Lorem ipsum dolor sit amet consectetur. Vel sed nec egestas nullam arcu id fames urna. Non eu rhoncus
-                  convallis sit...
+                  At our foundation, we believe in the power of mentorship to help individuals achieve their […]
                 </p>
                 <a href="html files/community_youth.html">Read More</a>
               </div>
             </div>
-            <!-- </div> -->
           </div>
           <div class="item">
-            <!-- <div class="col-lg-4"> -->
             <div class="card" id="crd">
-             <div class="card-img">
-              <img src="Images/daughter.png" class="card-img-top" alt="...">
-              <div class="empty_empty_content"></div>
-             </div>
+              <div class="card-img">
+                <img src="Images/daughter.png" class="card-img-top" alt="...">
+                <div class="empty_empty_content"></div>
+              </div>
               <div class="card-body p-3">
                 <h5 class="card-title">Our Daughters Project</h5>
                 <small class="pt-4">March 27, 2023</small>
                 <p class="card-text pt-4 mb-lg-5 pb-md-5 pb-lg-5">
-                  Lorem ipsum dolor sit amet consectetur. Vel sed nec egestas nullam arcu id integer sociis...
+                  At our foundation, we believe in the power of mentorship to help individuals achieve their […]
                 </p>
                 <a href="html files/daughter_project.html" class="pt-md-5 mt-md-5">Read More</a>
               </div>
             </div>
-            <!-- </div> -->
           </div>
           <div class="item">
-            <!-- <div class="col-lg-4"> -->
             <div class="card" id="crd">
-             <div class="card-img">
-              <img src="Images/legacy.png" class="card-img-top" alt="...">
-              <div class="empty_empty_content"></div>
-             </div>
+              <div class="card-img">
+                <img src="Images/legacy.png" class="card-img-top" alt="...">
+                <div class="empty_empty_content"></div>
+              </div>
               <div class="card-body p-3">
                 <h5 class="card-title">Legacy Projects</h5>
                 <small class="pt-3">March 27, 2023</small>
                 <p class="card-text pt-4 mb-lg-5 pb-lg-5 mid">
-                  Lorem ipsum dolor sit amet consectetur. Vel sed nec egestas nullam arcu id integer sociis...
+                  At our foundation, we believe in the power of mentorship to help individuals achieve their […]
                 </p>
                 <a href="html files/legacy_project.html">Read More</a>
               </div>
             </div>
-            <!-- </div> -->
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
 
   <!-- section/stories -->
-  <section id="stories">
-    <h3 class="fw-bold mb-4">News/Stories</h3>
+  <div id="stories" class="div_section">
     <div class="container">
+    <h3 class="fw-bold mb-4">News/Stories</h3>
       <div class="row gy-1 gx-lg-5">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 blog_card">
           <div class="card p-3 shadow-none" id="ced">
             <div class="row g-0">
               <div class="col-lg-5">
-                    <img src="Images/stories_1.png" class="img-fluid rounded-start mt-lg-3 image_1" alt="...">
+                <img src="Images/stories_1.png" class="img-fluid rounded-start mt-lg-3 image_1" alt="...">
               </div>
               <div class="col-lg-7">
                 <div class="card-body">
                   <h6 class="card-title"> Scholarship Opportunity to study Abroad</h6>
                   <small class="pt-1">January 27, 2023</small>
                   <p class="card-text my-2 mb-2">
-                    Lorem ipsum dolor sit amet consectetur. Vel sed nec egestas nullam arcu id integer sociis...
+                    At our foundation, we believe in the power of mentorship to help individuals achieve their […]
                   </p>
                   <a href="#">Read More</a>
                 </div>
@@ -502,14 +496,15 @@
           <div class="card p-3 shadow-none" id="ced">
             <div class="row g-0">
               <div class="col-lg-5">
-                  <img src="Images/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" class="img-fluid rounded-start mt-lg-3 image_1" alt="...">
+                <img src="Images/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg"
+                  class="img-fluid rounded-start mt-lg-3 image_1" alt="...">
               </div>
               <div class="col-lg-7">
                 <div class="card-body">
                   <h6 class="card-title pt-1">Grants for SME’s and Startups</h6>
                   <small class="pt-2">January 27, 2023</small>
                   <p class="card-text my-2 mb-2">
-                    Lorem ipsum dolor sit amet consectetur. Vel sed nec egestas nullam arcu id integer sociis...
+                    At our foundation, we believe in the power of mentorship to help individuals achieve their […]
                   </p>
                   <a href="#">Read More</a>
                 </div>
@@ -530,10 +525,10 @@
                   <h6 class="card-title pt-1"> #StartupSouth8 Conference</h6>
                   <small class="pt-2">January 27, 2023</small>
                   <p class="card-text my-2 mb-2">
-                    Lorem ipsum dolor sit amet consectetur. Vel sed nec egestas nullam arcu id integer sociis...
+                    At our foundation, we believe in the power of mentorship to help individuals achieve their […]
                   </p>
                   <a href="#">Read More</a>
-                </div>                                              
+                </div>
               </div>
             </div>
           </div>
@@ -542,14 +537,14 @@
           <div class="card p-3 shadow-none" id="ced">
             <div class="row g-0">
               <div class="col-lg-5">
-                  <img src="Images/Stories_picture-4.png" class="img-fluid rounded-start mt-lg-3 image_1" alt="...">
+                <img src="Images/Stories_picture-4.png" class="img-fluid rounded-start mt-lg-3 image_1" alt="...">
               </div>
               <div class="col-lg-7">
                 <div class="card-body">
                   <h6 class="card-title pt-1"> Google Pitch Competition</h6>
                   <small class="pt-2">January 27, 2023</small>
                   <p class="card-text my-2 mb-3">
-                    Lorem ipsum dolor sit amet consectetur. Vel sed nec egestas nullam arcu id integer sociis...
+                    At our foundation, we believe in the power of mentorship to help individuals achieve their […]
                   </p>
                   <a href="#">Read More</a>
                 </div>
@@ -562,13 +557,13 @@
         <a href="#" class="btn-sub btn border-dark">See All</a>
       </div>
     </div>
-  </section>
+  </div>
 
-  
+
   <!-- section/testimonials -->
-  <section id="testimonials" style="position: relative;">
-    <h1 class="text-center text-uppercase fw-bold">Testimonials</h1>
+  <div id="testimonials" style="position: relative; z-index: -1 ;" class="div_section">
     <div class="container slate">
+    <h1 class="text-center text-uppercase fw-bold">Testimonials</h1>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" id="button_carousel" data-bs-slide-to="0"
@@ -587,7 +582,31 @@
           <div class="carousel-item active text-center caro">
             <div class="container">
               <div class="row justify-content-center">
-                <div class="col-lg-8 p-1-4 bg-white" id="carousel" >
+                <div class="col-lg-8 p-1-4 bg-white" id="carousel">
+                  <div class=" vector mb-0 pb-0">
+                    <img src="Images/carousel_img.png" class="d-block w-100" alt="...">
+                    <h2 class="mt-0 pt-0">Hannah Schmitt</h2>
+                    <h6>Lead designer</h6>
+                  </div>
+                  <p class="mx-auto mb-5 mt-0 pt-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus
+                    maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus
+                    venenatis felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget
+                    nibh
+                    in turpis. Consequat duis diam lacus arcu. Faucibus enenatis felis id augue sit cursus pellentesque
+                    enim
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item text-center caro">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8 p-1-4 bg-white" id="carousel">
                   <div class=" vector mb-0 pb-0">
                   <img src="Images/carousel_img.png" class="d-block w-100" alt="...">
                   <h2 class="mt-0 pt-0">Hannah Schmitt</h2>
@@ -596,10 +615,10 @@
                 <p class="mx-auto mb-5 mt-0 pt-0">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus
                   maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus
-                  venenatis felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh
-                  in turpis. Consequat duis diam lacus arcu. Faucibus enenatis felis id augue sit cursus pellentesque
-                  enim
+                  venenatis
+                  felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis.
+                  Consequat duis diam lacus arcu. Faucibus enenatis felis id augue sit cursus pellentesque enim
                 </p>
               </div>
 
@@ -610,7 +629,7 @@
         <div class="carousel-item text-center caro">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-lg-8 p-1-4 bg-white" id="carousel" ">
+              <div class="col-lg-8 p-1-4 bg-white" id="carousel">
                   <div class=" vector mb-0 pb-0">
                 <img src="Images/carousel_img.png" class="d-block w-100" alt="...">
                 <h2 class="mt-0 pt-0">Hannah Schmitt</h2>
@@ -621,7 +640,8 @@
                 maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis
                 felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis.
-                Consequat duis diam lacus arcu. Faucibus enenatis felis id augue sit cursus pellentesque enim
+                Consequat
+                duis diam lacus arcu. Faucibus enenatis felis id augue sit cursus pellentesque enim
               </p>
             </div>
 
@@ -629,28 +649,6 @@
         </div>
 
       </div>
-      <div class="carousel-item text-center caro">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8 p-1-4 bg-white" id="carousel" ">
-                  <div class=" vector mb-0 pb-0">
-              <img src="Images/carousel_img.png" class="d-block w-100" alt="...">
-              <h2 class="mt-0 pt-0">Hannah Schmitt</h2>
-              <h6>Lead designer</h6>
-            </div>
-            <p class="mx-auto mb-5 mt-0 pt-0">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus
-              maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis
-              felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat
-              duis diam lacus arcu. Faucibus enenatis felis id augue sit cursus pellentesque enim
-            </p>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
 
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -667,17 +665,16 @@
     </div>
     </div>
     <div class="empty_div"></div>
-    </div>
-  </section>
+  </div>
 
 
- 
+
 
   <!-- section/updated -->
-  <section id="updated" class="mt-0">
+  <div id="updated" class="mt-0 div_section">
+    <div class="container">
     <h1 class=" text-center pt-2">Stay Updated</h1>
     <h6 class="mt-3  text-center">Subscribe to get all the latest updates</h6>
-    <div class="container">
       <form action="#" class="row pt-4 p-2">
         <div class="form-group col-md-6 col-lg-6">
           <input type="email" class="form-control p-3" placeholder="Email Address">
@@ -691,22 +688,16 @@
       </form>
     </div>
     </div>
-  </section>
 
 
 
-  <!-- <footer>
+
+  <!-- footer -->
+  <footer class="bg-white text-dark pt-5 pb-4">
     <div class="container">
-      <img src="../Images/ICCEF LOGO 1.png" alt="">
-    </div>
-  </footer> -->
-     <!-- footer -->
-     <!-- footer -->
-    <footer class="bg-white text-dark pt-5 pb-4">
-       <div class="container">
       <div class="row text-md-left justify-content-center">
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-       <img src="Images/ICCEF LOGO 1.png" alt="">
+          <img src="Images/ICCEF LOGO 1.png" alt="">
           <!-- <hr class="mb-4"> -->
         </div>
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -729,16 +720,19 @@
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
           <h5 class="text-uppercase mb-2 text-dark">Follow Us</h5>
           <div class="footer_icons_social d-flex">
-            <a href=" https://www.instagram.com/iccefnigeria" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
-            <a href=" https://twitter.com/iccefnigeria" target="_blank" class="ms-4"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.facebook.com/iccefnigeria" target="_blank"  class="ms-4"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/company/iccefnigeria/" target="_blank" class="ms-4"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=" https://www.instagram.com/iccefnigeria" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href=" https://twitter.com/iccefnigeria" target="_blank" class="ms-4"><i
+                class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/iccefnigeria" target="_blank" class="ms-4"><i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/iccefnigeria/" target="_blank" class="ms-4"><i
+                class="fa-brands fa-linkedin"></i></a>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <p class="text-lg-end pt-5">© 2023 ICCEF. All rights Reserved</p>
+          <p class="text-lg-end pt-5">© 2023 Innocent Chukwuemeka Chukwuma Empowerment Foundation. All rights Reserved</p>
         </div>
       </div>
     </div>
@@ -754,8 +748,23 @@
   <script src="Javascript/js.js"></script>
   <!-- owl/carousel -->
 
+  <script>
+       {
+        const header =document.querySelector(".navigation_bar");
+      let lastScroll=window.scrollY;
+
+
+        window.addEventListener("scroll", () =>{
+               if (lastScroll < window.scrollY){ 
+                header.classList.add("navbar-hidden");
+               }else{
+                header.classList.remove("navbar-hidden");
+               }
+               lastScroll=window.scrollY
+        })
+       }
+     
+  </script>
 </body>
 
 </html>
-
-

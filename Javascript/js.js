@@ -8,8 +8,8 @@ $('.owl-carousel').owlCarousel({
         responsiveClass:true,
         responsive:{
             0:{
-                items:3,
-                nav:true
+                items:1,
+                nav:false
             },
             600:{
                 items:2,
