@@ -484,19 +484,14 @@ footer img {
     width: 200px;
     position: absolute;
 } */
-.video_pos{
-    width: 100%;
-    position: absolute;
-    height: auto;
-}
 
 
 @media (min-width: 992px) {
-    .video_post{
+    /* .video_post{
         width: 100%;
         width: 1200px;
         height: 625px;
-    }
+    } */
    .div_section {
         margin-top: 6em;
         margin-bottom: 4em;
@@ -2788,10 +2783,10 @@ padding: 15px 24px 15px 24px;
     }
 
     
-    .video_post{
+    /* .video_post{
         width:auto;
         height: auto;
         margin-top: 25px;
-    }
+    } */
 
 }
